@@ -143,54 +143,54 @@ class Loja(object):
             print("Locação não encontrada no sistema.")
             return None
 
-# class Cliente(object):
+class Cliente(object):
 
-#     def __init__(self, qtBikes, tipoLocacao, tempoLocacao, conta):
-#         self.qtBikes = 0
-#         self.tipoLocacao = 0
-#         self.tempoLocacao = 0
-#         self.conta = 0
+    def __init__(self, qtBikes, tipoLocacao, horaLocacao, conta):
+        self.qtBikes = 0
+        self.tipoLocacao = 0
+        self.horaLocacao = 0
+        self.conta = 0
     
-#     def alugaBike(self, qtBikes, tipoLocacao):
-#         qtBikes = input("Quantas bicicletas gostaria de alugar?")
-#         tipoLocacao = input("Qual o tipo de locação que deseja?\n (Digite o número)\n \
-#             1 - Locação por hora (R$ 5,00/hora); \n \
-#             2 - Locação por dia (R$ 25,00/dia); \n \
-#             3 - Locação por semana (R$ 100,00/semana).")
+    def alugaBike(self, qtBikes, tipoLocacao):
+        qtBikes = input("Quantas bicicletas gostaria de alugar?")
+        tipoLocacao = input("Qual o tipo de locação que deseja?\n (Digite o número)\n \
+            1 - Locação por hora (R$ 5,00/hora); \n \
+            2 - Locação por dia (R$ 25,00/dia); \n \
+            3 - Locação por semana (R$ 100,00/semana).")
 
-#         try:
-#             qtBikes = int(qtBikes)
-#         except ValueError:
-#             print("Num. deve ser um inteiro positivo!")
-#             return -1
+        try:
+            qtBikes = int(qtBikes)
+        except ValueError:
+            print("Num. deve ser um inteiro positivo!")
+            return -1
 
-#         if qtBikes < 1:
-#             print("Entrada inválida. Qtbikes deve ser > zero!")
-#             return -1
-#         else:
-#             self.qtBikes = qtBikes
+        if qtBikes < 1:
+            print("Entrada inválida. Qtbikes deve ser > zero!")
+            return -1
+        else:
+            self.qtBikes = qtBikes
         
-#         try:
-#             tipoLocacao = int(tipoLocacao)
-#         except ValueError:
-#             print("Num. deve ser um int positivo!")
-#             return -1
+        try:
+            tipoLocacao = int(tipoLocacao)
+        except ValueError:
+            print("Num. deve ser um int positivo!")
+            return -1
         
-#         try:
-#             tipoLocacao in [1, 2, 3]
-#         except ValueError:
-#             print("Escolher 1, 2 ou 3.")
+        try:
+            tipoLocacao in [1, 2, 3]
+        except ValueError:
+            print("Escolher 1, 2 ou 3.")
         
-#         if tipoLocacao == 1:
+        if tipoLocacao == 1:
         
-#         elif tipoLocacao == 2:
+        elif tipoLocacao == 2:
 
-#         else: # tipoLocacao == 3:
+        else: # tipoLocacao == 3:
 
 
         
 
-#         return self.qtBikes, self.tipoLocacao
+        return self.qtBikes, self.tipoLocacao, self.horaLocacao
 
 
         
