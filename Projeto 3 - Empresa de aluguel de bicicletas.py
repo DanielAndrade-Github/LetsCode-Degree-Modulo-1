@@ -182,6 +182,8 @@ class Cliente(object):
             print("Escolher 1, 2 ou 3.")
         
         if tipoLocacao == 1:
+            return self.horaLocacao == 
+
         
         elif tipoLocacao == 2:
 
