@@ -1,10 +1,9 @@
 - 👋 Hi, I’m @DanielAndrade-Github
-- 👀 I’m interested in know how to make clean and effectives codes
-- 🌱 I’m currently learning Python
-- 💞️ I’m looking to collaborate on anything that i can help
-- 📫 How to reach me: danielvazandrade27@gmail.com
+- 👀 I’m interested in know how to make clean and effectives codes to data science
+- 🌱 I’m currently learning Python/Data Science in Let´s Code (São Paulo/Brazil)
+- 💞️ I’m looking to improve my coding capacity
+- 📫 How to reach me: danielvazandrade27@gmail.com / linkedin.com/in/danielvazandrade
 
-<!---
-DanielAndrade-Github/DanielAndrade-Github is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+Nesse módulo estudamos lógica de progração e programação orientada por objetos.
+Obrigado aos professores: Brian, Luiz e Larissa.
+Obrigado Let´sCode!!
